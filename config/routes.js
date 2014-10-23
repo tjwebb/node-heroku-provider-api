@@ -32,9 +32,9 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': {
-    view: 'homepage'
-  }
+  'POST /heroku/resources': 'ProvisionController.create',
+  'PUT /heroku/resources/:id': 'ProvisionController.update',
+  'DELETE /heroku/resources/:id': 'ProvisionController.destroy'
 
   /***************************************************************************
   *                                                                          *
