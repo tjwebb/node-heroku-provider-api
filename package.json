@@ -1,9 +1,15 @@
 {
-  "name": "sails-heroku-provider-api",
-  "private": true,
+  "name": "node-heroku-provider-api",
   "version": "0.0.0",
-  "description": "a Sails application",
-  "keywords": [],
+  "description": "Heroku Provider API Boilerplate written in Node using sails.js",
+  "keywords": [
+    "heroku",
+    "provider",
+    "addon",
+    "sails",
+    "sails.js",
+    "api"
+  ],
   "dependencies": {
     "bluebird": "^2.3.6",
     "ejs": "~0.8.4",
@@ -32,8 +38,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tjwebb/sails-heroku-provider-api.git"
+    "url": "git://github.com/tjwebb/node-heroku-provider-api.git"
   },
-  "author": "tjwebb",
-  "license": ""
+  "author": "Travis Webb <me@traviswebb.com>",
+  "license": "MIT"
 }
