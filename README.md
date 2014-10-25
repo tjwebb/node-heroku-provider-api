@@ -1,3 +1,3 @@
-# sails-heroku-provider-api
+# node-heroku-provider-api
 
-a [Sails](http://sailsjs.org) application
+Heroku Provider API Boilerplate written in Node using sails.js
