@@ -1,5 +1,5 @@
 {
-  "name": "node-heroku-provider-api",
+  "name": "heroku-provider-api",
   "version": "0.0.0",
   "description": "Heroku Provider API Boilerplate written in Node using sails.js",
   "keywords": [
@@ -47,5 +47,9 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "^2.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/tjwebb/node-heroku-provider-api/issues"
+  },
+  "homepage": "https://github.com/tjwebb/node-heroku-provider-api"
 }
