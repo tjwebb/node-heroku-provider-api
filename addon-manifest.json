@@ -1,7 +1,7 @@
 {
   "id": "couchdb",
   "api": {
-    "config_vars": [ "COUCHDB_URL", "FUTON_USER", "FUTON_PASSWORD" ],
+    "config_vars": [ "COUCHDB_URL", "COUCHDB_USER", "COUCHDB_PASSWORD", "COUCHDB_FUTON_URL" ],
     "regions": [ "us" ],
     "password": "c8d4267f7fe3d17820f31eb390b00825",
     "sso_salt": "34adc03b4aa5aaac19885c3a74c1d9a7",
