@@ -6,7 +6,9 @@ module.exports = {
     return {
       resource: resource,
       config: {
-        COUCHDB_URL: 'https://localhost:5984'
+        COUCHDB_URL: 'https://localhost:5984',
+        FUTON_USER: 'admin',
+        FUTON_PASSWORD: 'admin'
       },
       message: 'ok'
     };

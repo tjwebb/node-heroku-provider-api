@@ -1,13 +1,13 @@
 {
   "id": "couchdb",
   "api": {
-    "config_vars": [ "COUCHDB_URL" ],
+    "config_vars": [ "COUCHDB_URL", "FUTON_USER", "FUTON_PASSWORD" ],
     "regions": [ "us" ],
     "password": "c8d4267f7fe3d17820f31eb390b00825",
     "sso_salt": "34adc03b4aa5aaac19885c3a74c1d9a7",
     "production": {
-      "base_url": "https://yourapp.com/heroku/resources",
-      "sso_url": "https://yourapp.com/sso/login"
+      "base_url": "https://couchdb.io/heroku/resources",
+      "sso_url": "https://couchdb.io/sso/login"
     },
     "test": {
       "base_url": "http://localhost:4567/heroku/resources",

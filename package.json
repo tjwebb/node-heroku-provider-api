@@ -35,7 +35,8 @@
   },
   "scripts": {
     "start": "node server.js",
-    "debug": "node debug server.js"
+    "debug": "node debug server.js",
+    "test": "kensa test provision && mocha --reporter spec"
   },
   "main": "server.js",
   "repository": {
@@ -43,5 +44,8 @@
     "url": "git://github.com/tjwebb/node-heroku-provider-api.git"
   },
   "author": "Travis Webb <me@traviswebb.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
 }
