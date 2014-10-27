@@ -7,5 +7,5 @@ notifications:
   email: false
 
 before_script:
-  - npm start
+  - npm start &
   - sleep 10
